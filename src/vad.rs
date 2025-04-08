@@ -1,6 +1,6 @@
 use eyre::{bail, Result};
 use ndarray::{Array1, Array2, Array3, ArrayBase, Ix1, Ix3, OwnedRepr};
-use ort::session::Session;
+use ort::Session;
 use std::path::Path;
 
 use crate::{session, vad_result::VadResult};
