@@ -12,7 +12,7 @@ license = "MIT"
 eyre = "0.6.12"
 ndarray = "0.16.1"
 ort = "=2.0.0-rc.6"
-samplerate = { version = "0.2.4", optional = true }
+samplerate = { git = "https://github.com/divanshu-go/rust-samplerate.git", rev = "bf8415d5ac33940bb5a52bd23b24ca9a56f96792", optional = true }
 ebur128 = { version = "0.1.9", optional = true }
 ringbuffer = "0.15.0"
 
